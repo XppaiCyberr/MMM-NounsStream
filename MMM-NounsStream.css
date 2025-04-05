@@ -1,0 +1,302 @@
+.MMM-NounsStream {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.MMM-NounsStream .header {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+
+.MMM-NounsStream table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+    table-layout: fixed;
+}
+
+.MMM-NounsStream th {
+    text-align: left;
+    padding: 8px 10px 8px 0;
+    font-size: 0.7em;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.MMM-NounsStream th:nth-child(1),
+.MMM-NounsStream td:nth-child(1) {
+    width: 20%;
+}
+
+.MMM-NounsStream th:nth-child(2),
+.MMM-NounsStream td:nth-child(2) {
+    width: 30%;
+}
+
+.MMM-NounsStream th:nth-child(3),
+.MMM-NounsStream td:nth-child(3) {
+    width: 25%;
+}
+
+.MMM-NounsStream th:nth-child(4),
+.MMM-NounsStream td:nth-child(4) {
+    width: 25%;
+}
+
+.MMM-NounsStream td {
+    padding: 6px 10px 6px 0;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+.MMM-NounsStream .prop-id {
+    color: #4965F8;
+}
+
+.MMM-NounsStream .end-date {
+    color: #4965F8;
+}
+
+.MMM-NounsStream .progress-bar {
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+.MMM-NounsStream .progress-fill {
+    height: 100%;
+    background-color: #4965F8;
+    border-radius: 3px;
+    transition: width 1s ease-in-out;
+}
+
+.MMM-NounsStream .dimmed {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.MMM-NounsStream .small {
+    font-size: 0.8em;
+}
+
+.MMM-NounsStream .light {
+    font-weight: 300;
+}
+
+.mmm-nouns-stream {
+    line-height: 1.2;
+    background: #141414;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 600px;
+    font-family: 'PT Root UI', 'Inter', sans-serif;
+}
+
+.mmm-nouns-stream .header {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 4px;
+}
+
+.mmm-nouns-stream .table-wrapper {
+    margin: 0;
+}
+
+.mmm-nouns-stream table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 13px;
+}
+
+.mmm-nouns-stream thead tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mmm-nouns-stream th {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 4px 8px 4px 0;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+}
+
+.mmm-nouns-stream td {
+    padding: 4px 8px 4px 0;
+    text-align: left;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Column widths */
+.mmm-nouns-stream th:nth-child(1),
+.mmm-nouns-stream td:nth-child(1) {
+    width: 15%;
+    white-space: nowrap;
+}
+
+.mmm-nouns-stream th:nth-child(2),
+.mmm-nouns-stream td:nth-child(2) {
+    width: 25%;
+    white-space: nowrap;
+}
+
+.mmm-nouns-stream th:nth-child(3),
+.mmm-nouns-stream td:nth-child(3) {
+    width: 25%;
+    padding-right: 16px;
+}
+
+.mmm-nouns-stream th:nth-child(4),
+.mmm-nouns-stream td:nth-child(4) {
+    width: 20%;
+    white-space: nowrap;
+}
+
+.mmm-nouns-stream th:nth-child(5),
+.mmm-nouns-stream td:nth-child(5) {
+    width: 15%;
+    white-space: nowrap;
+    text-align: right;
+}
+
+/* Amount styling */
+.mmm-nouns-stream .monthly {
+    color: #fff;
+    line-height: 1.2;
+}
+
+.mmm-nouns-stream .total {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.2;
+}
+
+/* Progress bar styling */
+.mmm-nouns-stream .progress-wrapper {
+    padding: 4px 0;
+    position: relative;
+}
+
+.mmm-nouns-stream .progress-bar {
+    background: rgba(255, 255, 255, 0.1);
+    height: 2px;
+    position: relative;
+    width: 100%;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.mmm-nouns-stream .progress-fill {
+    background: #fff;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mmm-nouns-stream .progress-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    animation: flow 2s linear infinite;
+    transform: translateX(-100%);
+}
+
+@keyframes flow {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Text colors */
+.mmm-nouns-stream .prop {
+    color: #fff;
+}
+
+.mmm-nouns-stream .date {
+    color: #fff;
+}
+
+/* Loading spinner */
+.mmm-nouns-stream .fa-spin {
+    margin-right: 8px;
+}
+
+/* Utility classes */
+.mmm-nouns-stream .dimmed {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.mmm-nouns-stream .small {
+    font-size: 12px;
+}
+
+.mmm-nouns-stream .light {
+    font-weight: 300;
+}
+
+.mmm-nouns-stream .progress-text {
+    text-align: center;
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 11px;
+}
+
+/* Remove these special recipient styles */
+.mmm-nouns-stream .recipient {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.mmm-nouns-stream .recipient[data-is-ens="true"] {
+    font-family: inherit;
+}
+
+/* Responsive font sizes */
+@media screen and (min-width: 480px) {
+    .mmm-nouns-stream th,
+    .mmm-nouns-stream td {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .mmm-nouns-stream th,
+    .mmm-nouns-stream td {
+        font-size: 12px;
+    }
+} 
